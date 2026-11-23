@@ -1,0 +1,35 @@
+{
+  "content_id": "studio-video-001",
+  "source_locale": "en",
+  "localizations": {
+    "en": {
+      "title": "Material studies",
+      "body": "A study of light and texture. Design: Studio Example."
+    },
+    "ja": {
+      "title": "素材の研究",
+      "body": "光と質感の研究。デザイン：Studio Example。"
+    }
+  },
+  "assets": [
+    {
+      "path": "replace-with-your-video.mp4",
+      "type": "video"
+    }
+  ],
+  "credits": [
+    "Studio Example"
+  ],
+  "destinations": [
+    {
+      "channel": "youtube",
+      "account": "studio-example",
+      "locale": "en",
+      "transport": "youtube",
+      "options": {
+        "credentials_env": "YOUTUBE_CREDENTIALS_FILE",
+        "privacy": "private"
+      }
+    }
+  ]
+}

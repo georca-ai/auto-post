@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.distribution-state/
+prepared/
+.env
+*credentials*.json
+*token*.json

@@ -1,0 +1,47 @@
+{
+  "content_id": "studio-launch-001",
+  "source_locale": "en",
+  "localizations": {
+    "en": {
+      "title": "Material studies",
+      "body": "A study of light and texture. Design: Studio Example."
+    },
+    "ja": {
+      "title": "素材の研究",
+      "body": "光と質感の研究。デザイン：Studio Example。"
+    }
+  },
+  "assets": [
+    {
+      "path": "sample.png",
+      "type": "image"
+    }
+  ],
+  "credits": [
+    "Studio Example"
+  ],
+  "destinations": [
+    {
+      "channel": "instagram",
+      "account": "studio-example",
+      "locale": "en",
+      "transport": "browser",
+      "options": {
+        "url": "https://www.instagram.com/"
+      }
+    },
+    {
+      "channel": "publication",
+      "account": "studio-mail",
+      "locale": "ja",
+      "transport": "smtp",
+      "options": {
+        "host": "smtp.example.com",
+        "sender": "studio@example.com",
+        "recipient": "editor@example.com",
+        "username_env": "EDITORIAL_SMTP_USER",
+        "password_env": "EDITORIAL_SMTP_PASSWORD"
+      }
+    }
+  ]
+}
